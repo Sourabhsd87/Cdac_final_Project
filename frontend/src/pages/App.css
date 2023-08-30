@@ -1,0 +1,510 @@
+/* Layout css */
+
+.navbar {
+    padding: 0.5rem 1rem;
+    background-color: #343a40;
+  }
+  
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .navbar-link.active {
+    color: #fff;
+  }
+  
+  
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .navbar-nav {
+    margin-left: auto;
+  }
+  
+  .navbar-nav li {
+    margin-right: 1rem;
+  }
+  
+  .navbar-nav li:last-child {
+    margin-right: 0;
+  }
+  
+  .nav-link {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 10px;
+  text-decoration: none;
+  border-bottom: none;
+  }
+
+  .nav-link-dd{
+    text-decoration: none;
+    color: black;
+  }
+  
+  .nav-link:hover {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+  }
+
+  /* login css */
+  .login-form {
+    width: 370px;
+    margin: 0 auto;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .login-title {
+    text-align: center;
+    
+    margin-bottom: 20px;
+  }
+  
+  .login-label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .login-input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .login-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  
+
+ .footer {
+  background-color: #f8f9fa;
+  text-align: center;
+  font-size: 16px;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer a {
+  color: #fff;
+}
+
+.footer a:hover {
+  color: #ccc;
+}
+
+.footer ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.footer-link {
+  margin-right: 1rem;
+}
+
+
+@media (max-width: 767px) {
+  .footer {
+    text-align: center;
+  }
+  .footer ul {
+    margin-bottom: 20px;
+  }
+  .footer ul li {
+    display: block;
+    margin: 0;
+  }
+}
+
+
+
+
+  /* Style for jumbotron */
+.jumbotron {
+  background-color: #e9ecef;
+  color: #212529;
+  padding: 60px;
+}
+
+/* Style for the Ride Along heading */
+.jumbotron h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+/* Style for the How it Works section */
+.container {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  border-style:groove;
+  border-width: 100%;
+  padding: 60px;
+}
+
+/* Style for the How it Works section heading */
+.container h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+/* Style for the Steps section */
+.row {
+  margin-bottom: 60px;
+}
+
+/* Style for individual steps */
+.col-sm-4 {
+  text-align: center;
+}
+
+/* Style for step headings */
+.col-sm-4 h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Style for step descriptions */
+.col-sm-4 p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+/* Style for the Features section */
+.container-fluid {
+  background-color: #f8f9fa;
+  padding: 60px;
+  text-align: center;
+}
+
+/* Style for the Features section heading */
+.container-fluid h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+/* Style for the individual feature sections */
+.container-fluid .col-sm-4 {
+  text-align: center;
+}
+
+/* Style for feature headings */
+.container-fluid .col-sm-4 h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Style for feature descriptions */
+.container-fluid .col-sm-4 p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+/* signup css */
+.signup-form {
+  width: 370px;
+  margin: 0 auto;
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.signup-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.signup-label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.signup-input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.signup-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#signup-form {
+width: 400px;
+    margin: 0 auto;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#signup-form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#signup-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+#signup-form label {
+  margin-top: 10px;
+
+}
+
+#signup-form input[type="email"],
+#signup-form input[type="text"],
+#signup-form input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#signup-form button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+#signup-form button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.form-switch {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.form-switch a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.form-switch a:hover {
+  text-decoration: underline;
+}
+
+
+
+.box{
+	width:300px;
+	height:200px;
+	display: inline-block;
+}
+.one{
+	background-image: url("https://source.unsplash.com/random/300x201/?bike,riders,riding");
+}
+.two{
+	background-image: url("https://source.unsplash.com/featured/300x202/?bike,riders,riding");
+}
+.three{
+	background-image: url("https://source.unsplash.com/featured/300x203/?bike,riders,riding");
+}
+.four{
+	background-image: url("https://source.unsplash.com/featured/300x204/?bike,riders,riding");
+}
+.five{
+	background-image: url("https://source.unsplash.com/featured/300x205/?bike,riders,riding");
+}
+.six{
+	background-image: url("https://source.unsplash.com/featured/300x206/?bike,riders,riding");
+}
+.seven{
+	background-image: url("https://source.unsplash.com/featured/300x207/?bike,riders,riding");
+}
+.eight{
+	background-image: url("https://source.unsplash.com/featured/300x208/?bike,riders,riding");
+}
+#newsletter {
+  margin-top: 2rem;
+  background-color: #f5f5f5;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+#newsletterlabel {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+#newsletterbtn[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 0.2rem 0.3rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 4px;
+}
+
+
+a {
+	text-decoration: none; /* remove underline */
+	color: inherit; /* remove blue */
+}
+
+#logoutbtn{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px; 
+}
+
+
+.maplabel {
+  margin-right: 10px;
+}
+
+#source {
+  padding: 5px;
+  margin-right: 10px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+#destination {
+  padding: 5px;
+  margin-right: 10px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+#mapbtn[type="submit"] {
+  padding: 5px 10px;
+  border-radius: 3px;
+  border: none;
+  background-color: #4285f4;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#mapbtn[type="submit"]:hover {
+  background-color: #357ae8;
+}
+
+.search-header {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-label {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.search-input {
+  padding: 10px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+  width: 300px;
+}
+
+.search-btn {
+  background-color: #2c3e50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.search-btn:hover {
+  background-color: #34495e;
+}
+
+.search-results {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-result {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 500px;
+}
+
+post {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+post p:first-child {
+  font-weight: bold;
+}
+
+post p:last-child {
+  margin-top: 10px;
+}

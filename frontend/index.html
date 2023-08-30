@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Ride Along</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <a class="navbar-brand" href="#" onclick="showIndex()">Ride Along</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#" onclick="showIndex()">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" onclick="showSignUpForm()">Sign Up</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" onclick="showLoginForm()">Log In</a>
+        </li>
+      </ul>
+    </div>
+    </nav>
+  <div id="hide">
+  <div class="jumbotron text-center">
+    <h1>Ride Along</h1>
+    <p>Find like-minded riders and explore new destinations together.</p>
+  </div>
+  <div class="container">
+    <h2>How it Works</h2>
+    <div class="row">
+      <div class="col-sm-4">
+        <h3>Step 1</h3>
+        <p>Enter your destination and date of travel.</p>
+      </div>
+      <div class="col-sm-4">
+        <h3>Step 2</h3>
+        <p>Browse other riders travelling to the same destination.</p>
+      </div>
+      <div class="col-sm-4">
+        <h3>Step 3</h3>
+        <p>Connect with riders and plan your trip together.</p>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid bg-light">
+    <h2>Features</h2>
+    <div class="row">
+      <div class="col-sm-4">
+        <h3>Community</h3>
+        <p>Get advice and tips from other riders who have travelled the same route.</p>
+      </div>
+      <div class="col-sm-4">
+        <h3>Navigation</h3>
+        <p>Get turn-by-turn directions to your destination and must-visit locations along the way.</p>
+      </div>
+      <div class="col-sm-4">
+        <h3>Resources</h3>
+        <p>Find fuel stations, accommodation, restaurants, and mechanic shops along your route.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="signup-form">
+  <h1>Sign Up</h1>
+  <form>
+    <label for="email">Email</label>
+    <input type="email" id="emailS" name="emailS" required>
+
+    <label for="username">Username</label>
+    <input type="text" id="usernameS" name="usernameS" required>
+
+    <label for="password">Password</label>
+    <input type="password" id="passwordS" name="passwordS" required>
+
+    <button type="submit">Sign Up</button>
+  </form>
+
+  <div class="form-switch">
+    <span>Already have an account?</span>
+    <a href="#" onclick="showLoginForm()">Log in</a>
+  </div>
+</div>
+
+
+<div id="login-form">
+  <h1>Log In</h1>
+  <form>
+    <label for="email">Email</label>
+    <input type="email" id="emailL" name="emailL" required>
+
+    <label for="password">Password</label>
+    <input type="password" id="passwordL" name="passwordL" required>
+
+    <button type="submit">Log In</button>
+  </form>
+
+  <div class="form-switch">
+    <span>Don't have an account?</span>
+    <a href="#" onclick="showSignUpForm()">Sign up</a>
+  </div>
+</div>
+
+  <footer class="container-fluid text-center">
+    <p>&copy; 2023 Ride Along. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
